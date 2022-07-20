@@ -4,7 +4,7 @@ With the growth of internet information, network security is becoming an immense
 ## Dataset Information and Cost Function
 
 | Type | Attacks |
-|:------:|:----------:|
+|:------:|:----------|
 | Probe | Ipsweep , nmap, portsweep, satan, Mscan, Saint |
 | Dos | Back, land, Neptune, pod, smurf, teardrop, Apache2, Mailbomb, Processtable, Upstorm |
 | U2R | buffer_overflow, loadmodule, perl, rootkit, Httptunnel, Ps, Woor, Xterm |
