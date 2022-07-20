@@ -11,7 +11,7 @@ The Dataset is collected from MIT Lincoln Laboratory which is supervised by the 
 | R2L | ftp_write, guess_passwd, imap, multihop, phf, spy, warezclient, warezmaster Named, Sendmail, Snmpgetattack, Snmpgue, Sqlattack, Xlock, Xsnoop |
 
 A cost matrix is used to measure the misclassification of a model. It can cause the model to maximize beneficial accurate classifications. The cost matrix for five class of [KDD’99 Cup dataset](https://www.researchgate.net/publication/327812725_KDD_1999_generation_faults_a_review_and_analysis) is-
-<p align="right">
+
 | | Normal | Probe | DoS | U2R | R2L |
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | Normal | 0 | 2 | 2 | 2 | 2 |
@@ -19,4 +19,4 @@ A cost matrix is used to measure the misclassification of a model. It can cause 
 | U2R | 2 | 2 | 0 | 2 | 2 |
 | R2L | 2 | 2 | 2 | 0 | 2 |
 | Probe | 2 | 0 | 2 | 2 | 0 |
-</p>
+
