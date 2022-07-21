@@ -33,3 +33,6 @@ To show the effect of this class imbalance problem, we evaluated the performance
 
 ![Performance Comparison](https://github.com/nazmul729/Data-Mining-Project/blob/12f0e218f85c9b71424af47653264a72035ff430/Performance%20Comparison.jpg)
 
+The misclassification costs are-
+
+![misclassification_Cost](https://github.com/nazmul729/Data-Mining-Project/blob/main/Misclassification%20Cost.jpg)
