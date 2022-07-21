@@ -20,3 +20,16 @@ A cost matrix is used to measure the misclassification of a model. It can cause 
 | R2L | 2 | 2 | 2 | 0 | 2 |
 | Probe | 2 | 0 | 2 | 2 | 0 |
 
+Full 10% KDD’99 Dataset contains 494021 samples with 22 attack types. The occurrences of each attack in dataset are shown in the following figure-
+
+![attack freq](https://user-images.githubusercontent.com/42664968/180103272-c3469016-cbd7-4ce5-8f78-a899d8299e67.jpg)
+
+![Distribution of each attacks](https://user-images.githubusercontent.com/42664968/180103414-358ec22e-7a8f-4fda-8a1d-5e8d6011eaa0.jpg)
+
+
+## Empirical Results
+
+To show the effect of this class imbalance problem, we evaluated the performance for original dataset by using DT classifier. Then remove some irrelevant, noisy, skewed, and/or redundant features from the original dataset and make a new dataset with reduced feature named “reduced dataset”. Then, we applied DT algorithm for empirically analysis on reduced dataset [37]. Finally, calculated the validation performance by removing class imbalance problem through under-sampling and oversampling. These performances are depicted in figure-
+
+![Performance Comparison](https://github.com/nazmul729/Data-Mining-Project/blob/12f0e218f85c9b71424af47653264a72035ff430/Performance%20Comparison.jpg)
+
