@@ -42,3 +42,8 @@ In this project, I have empirically analyzed the imbalance effect using Decision
 - by removing class imbalance problem through oversampling and under-sampling.
  
 Then DT algorithm is applied on the network intrusion dataset with labeled samples. This DT classifier is also applied on reduced dataset and original dataset.The DT classifier performs state-of-the-art performance with lower misclassification costs on proposed unbiased datasets.
+
+## Credits
+
+- Special thanks to [Professor Xindong Wu](https://scholar.google.com/citations?user=X8sHmqIAAAAJ&hl=en).
+- Implement this using [Waikato Environment for Knowledge Analysis, developed at the University of Waikato, New Zealand](https://www.weka.io/)
