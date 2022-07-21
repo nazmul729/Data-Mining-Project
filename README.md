@@ -36,3 +36,8 @@ To show the effect of this class imbalance problem, we evaluated the performance
 The misclassification costs are-
 
 ![misclassification_Cost](https://github.com/nazmul729/Data-Mining-Project/blob/main/Misclassification%20Cost.jpg)
+
+In this project, I have empirically analyzed the imbalance effect using Decision Table rules based algorithm on IDS. The new preprocessed dataset built-
+- by selecting a limited number of features and 
+- by removing class imbalance problem through oversampling and under-sampling. 
+Then DT algorithm is applied on the network intrusion dataset with labeled samples. This DT classifier is also applied on reduced dataset and original dataset.The DT classifier performs state-of-the-art performance with lower misclassification costs on proposed unbiased datasets.
